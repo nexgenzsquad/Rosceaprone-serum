@@ -37,14 +37,14 @@ export default function WhyChoose() {
         </Reveal>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
-          <Reveal>
-            <div className="overflow-hidden rounded-2xl border border-primary/20 bg-white text-center shadow-sm">
+          <Reveal className="h-full">
+            <div className="flex h-full flex-col overflow-hidden rounded-2xl border border-primary/20 bg-white text-center shadow-sm">
               <div className="bg-primary px-6 py-3">
                 <p className="text-xs font-bold uppercase tracking-[0.24em] text-white">
                   Murasaki Beauty
                 </p>
               </div>
-              <div className="px-6 py-8">
+              <div className="flex flex-1 items-center px-6 py-8">
                 <Image
                   src="/images/Frame 245.png"
                   alt="Murasaki Beauty Rosacea-Prone Redness-Calming Serum bottle"
@@ -56,14 +56,14 @@ export default function WhyChoose() {
             </div>
           </Reveal>
 
-          <Reveal delay={120}>
-            <div className="overflow-hidden rounded-2xl border border-ink/15 bg-white text-center shadow-sm">
+          <Reveal delay={120} className="h-full">
+            <div className="flex h-full flex-col overflow-hidden rounded-2xl border border-ink/15 bg-white text-center shadow-sm">
               <div className="bg-ink/10 px-6 py-3">
                 <p className="text-xs font-bold uppercase tracking-[0.24em] text-ink/50">
                   Ordinary Serums
                 </p>
               </div>
-              <div className="px-6 py-8">
+              <div className="flex flex-1 items-center px-6 py-8">
                 <div className="relative mx-auto flex h-full w-full max-w-[180px] items-center justify-center sm:max-w-[220px]">
                   <Image
                     src="/images/66987-removebg-preview.png"
