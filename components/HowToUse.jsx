@@ -92,10 +92,10 @@ export default function HowToUse() {
             <div className="flex justify-center">
               <div className="w-full max-w-xs overflow-hidden rounded-2xl border border-primary/10 bg-white shadow-sm sm:max-w-sm">
                 <Image
-                  src="/images/Frame 243.png"
+                  src="/images/howtouse1.jpg"
                   alt="Rosacea-Prone Redness-Calming Serum — daily barrier care routine"
-                  width={2000}
-                  height={2000}
+                  width={1600}
+                  height={1600}
                   className="h-auto w-full"
                 />
               </div>

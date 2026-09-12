@@ -20,7 +20,7 @@ export default function VideoSection() {
           <p className="text-xs font-bold tracking-[0.32em] text-accent">
             IN ACTION
           </p>
-          <h2 className="mt-4 text-3xl font-bold text-balance text-primary sm:text-4xl">
+          <h2 className="mt-4 text-2xl font-bold text-balance text-primary sm:text-4xl">
             See the Redness-Calming Serum in Action
           </h2>
         </Reveal>

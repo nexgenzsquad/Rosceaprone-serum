@@ -94,23 +94,31 @@ export default function WhyChoose() {
                 key={row.label}
                 className="border-b border-ink/5 px-4 py-5 last:border-b-0 sm:grid sm:grid-cols-[1fr_180px_180px] sm:items-center sm:gap-2 sm:px-5"
               >
-                <p className="mb-3 text-sm leading-snug text-ink/85 sm:mb-0 sm:text-base">
+                <p className="text-sm leading-snug text-ink/85 sm:text-base">
                   {row.label}
                 </p>
-                <div className="flex items-center gap-4">
-                  <div className="flex flex-1 items-center justify-between gap-1.5 sm:flex-initial sm:justify-end">
-                    <span className="text-xs font-semibold uppercase text-primary sm:hidden">Murasaki</span>
-                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
-                      <Check className="h-4 w-4 text-primary" />
+                <div className="mt-3 flex flex-wrap items-center justify-between gap-3 sm:hidden">
+                  <span className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1.5 text-xs font-bold uppercase tracking-wide text-primary">
+                    <Check className="h-3.5 w-3.5" />
+                    Murasaki
+                  </span>
+                  <span className="inline-flex min-w-0 items-center gap-2 rounded-full bg-ink/5 px-3 py-1.5">
+                    <span className="text-xs font-medium leading-snug text-ink/60">
+                      {row.theirs}
                     </span>
-                  </div>
-                  <div className="flex flex-1 items-center justify-between gap-1.5 sm:flex-initial sm:justify-end">
-                    <span className="text-xs font-semibold uppercase text-ink/40 sm:hidden">Others</span>
-                    <span className="text-right text-xs text-ink/50 sm:text-sm">{row.theirs}</span>
-                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ink/5">
-                      <X className="h-4 w-4 text-ink/40" />
-                    </span>
-                  </div>
+                    <X className="h-3.5 w-3.5 shrink-0 text-ink/40" />
+                  </span>
+                </div>
+                <div className="hidden items-center justify-end sm:flex">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
+                    <Check className="h-4 w-4 text-primary" />
+                  </span>
+                </div>
+                <div className="hidden items-center justify-end gap-1.5 sm:flex">
+                  <span className="text-right text-xs text-ink/50 sm:text-sm">{row.theirs}</span>
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ink/5">
+                    <X className="h-4 w-4 text-ink/40" />
+                  </span>
                 </div>
               </div>
             ))}

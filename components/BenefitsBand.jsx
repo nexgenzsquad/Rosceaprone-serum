@@ -31,7 +31,7 @@ export default function BenefitsBand() {
       <div className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-24">
         <Reveal>
           <p className="text-sm italic text-accent-light">Daily Relief</p>
-          <h2 className="mt-3 text-3xl font-bold leading-tight text-balance text-white sm:text-4xl lg:text-5xl">
+          <h2 className="mt-3 text-2xl font-bold leading-tight text-balance text-white sm:text-4xl lg:text-5xl">
             REDNESS CALM &amp; BARRIER COMFORT
           </h2>
           <p className="mt-3 text-base text-white/70 sm:text-lg">

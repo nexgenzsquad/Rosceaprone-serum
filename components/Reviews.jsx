@@ -140,11 +140,11 @@ export default function Reviews() {
           <h3 className="text-center text-sm font-bold uppercase tracking-[0.2em] text-primary/60">
             Authentic Customer Screenshots
           </h3>
-          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
+          <div className="mt-6 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-1 sm:grid sm:grid-cols-3 sm:overflow-visible sm:pb-0 md:grid-cols-4">
             {SCREENSHOTS.map((shot) => (
               <div
                 key={shot.src}
-                className="overflow-hidden rounded-xl border border-primary/10 bg-white shadow-sm"
+                className="w-[75vw] shrink-0 snap-center overflow-hidden rounded-xl border border-primary/10 bg-white shadow-sm sm:w-auto"
               >
                 <Image
                   src={shot.src}

@@ -13,13 +13,13 @@ const STRIP = ["FRAGRANCE-FREE", "NON-COMEDOGENIC", "DERMATOLOGIST-TESTED"];
 export default function Hero() {
   return (
     <section id="home" className="scroll-mt-16 bg-primary md:scroll-mt-20">
-      <div className="mx-auto grid max-w-7xl gap-10 px-5 pb-16 pt-12 md:grid-cols-2 md:items-center md:gap-12 md:px-8 md:pb-20 md:pt-16 lg:pt-24">
+      <div className="mx-auto grid max-w-7xl gap-10 px-5 pb-16 pt-12 md:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] md:items-center md:gap-8 md:px-8 md:pb-20 md:pt-16 lg:pt-24">
         <div className="min-w-0 text-white">
           <p className="text-xs font-semibold tracking-[0.32em] text-accent-light">
             MURASAKI BEAUTY
           </p>
 
-          <h1 className="mt-5 text-3xl leading-[1.1] text-balance sm:text-5xl lg:text-6xl">
+          <h1 className="mt-5 text-[1.7rem] leading-[1.1] text-balance sm:text-5xl lg:text-6xl">
             Rosacea-Prone
             <span className="mt-1 block font-bold">
               <span className="text-accent-light">Redness-Calming</span> Serum
@@ -60,14 +60,14 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative mx-auto w-full min-w-0 max-w-md md:max-w-none">
+        <div className="relative w-full min-w-0">
           <Image
             src="/images/heromain.png"
             alt="RosceaProne Redness-Calming Serum bottle against a soft pink background"
             width={2000}
             height={2000}
             priority
-            className="h-auto w-full drop-shadow-[0_24px_48px_rgba(0,0,0,0.45)]"
+            className="h-auto w-full scale-100 drop-shadow-[0_24px_48px_rgba(0,0,0,0.45)] md:scale-[1.1]"
           />
         </div>
       </div>

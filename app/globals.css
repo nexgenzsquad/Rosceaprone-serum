@@ -21,6 +21,13 @@ body {
   background: #ffffff;
   color: var(--color-ink);
   font-family: var(--font-sans);
+  overflow-wrap: break-word;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
 }
 
 @keyframes marquee {

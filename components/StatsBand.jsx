@@ -16,10 +16,10 @@ export default function StatsBand() {
           <Reveal>
             <div className="overflow-hidden rounded-2xl ring-1 ring-white/15">
               <Image
-                src="/images/Frame 260.png"
+                src="/images/visibleresults1.jpg"
                 alt="Rosacea-Prone Redness-Calming Serum — visible results"
-                width={2928}
-                height={1200}
+                width={1600}
+                height={1600}
                 className="h-auto w-full"
               />
             </div>

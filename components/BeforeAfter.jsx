@@ -14,10 +14,10 @@ export default function BeforeAfter() {
         <Reveal className="mt-10">
           <div className="overflow-hidden rounded-2xl">
             <Image
-              src="/images/Frame 259.png"
+              src="/images/barrierrepair.jpg"
               alt="Before: compromised skin barrier. After: healthy-looking skin barrier."
-              width={1800}
-              height={1093}
+              width={1464}
+              height={600}
               className="h-auto w-full object-cover"
             />
           </div>

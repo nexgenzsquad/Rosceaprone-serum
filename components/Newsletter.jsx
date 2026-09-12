@@ -16,7 +16,7 @@ export default function Newsletter() {
 
   return (
     <section className="bg-white py-16 md:py-24">
-      <div className="mx-auto grid max-w-5xl items-center gap-10 px-5 md:px-8 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-5xl items-center gap-10 px-5 md:grid-cols-2 md:px-8">
         <div className="overflow-hidden rounded-2xl">
           <Image
             src="/images/Frame 240.png"
@@ -27,7 +27,7 @@ export default function Newsletter() {
           />
         </div>
 
-        <div className="text-center lg:text-left">
+        <div className="text-center md:text-left">
           <h2 className="text-3xl font-bold text-balance text-primary sm:text-4xl">
             Calmer Skin, Straight to Your Inbox
           </h2>
@@ -44,7 +44,7 @@ export default function Newsletter() {
           ) : (
             <form
               onSubmit={onSubmit}
-              className="mt-8 flex max-w-md flex-col gap-3 sm:flex-row lg:mx-0"
+              className="mt-8 flex max-w-md flex-col gap-3 sm:flex-row md:mx-0"
             >
               <label htmlFor="newsletter-email" className="sr-only">
                 Email address
@@ -56,7 +56,7 @@ export default function Newsletter() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="h-12 flex-1 rounded-full border border-ink/20 bg-white px-5 text-sm text-ink outline-none transition-colors placeholder:text-ink/40 focus:border-primary"
+                className="h-12 w-full rounded-full border border-ink/20 bg-white px-5 text-sm text-ink outline-none transition-colors placeholder:text-ink/40 focus:border-primary sm:flex-1"
               />
               <button
                 type="submit"

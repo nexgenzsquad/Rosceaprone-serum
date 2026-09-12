@@ -83,7 +83,7 @@ function IngredientRow({ name, benefit, image, width, height, index }) {
           </div>
 
           <div className="flex items-center justify-center">
-            <span className="flex h-[clamp(36px,5vw,52px)] w-[clamp(36px,5vw,52px)] items-center justify-center rounded-full bg-gradient-to-br from-accent to-primary text-white shadow-lg shadow-accent/30 ring-1 ring-inset ring-white/30 transition-all duration-300 ease-out group-hover:scale-110 group-hover:shadow-accent/50">
+            <span className="hidden h-[clamp(36px,5vw,52px)] w-[clamp(36px,5vw,52px)] items-center justify-center rounded-full bg-gradient-to-br from-accent to-primary text-white shadow-lg shadow-accent/30 ring-1 ring-inset ring-white/30 transition-all duration-300 ease-out group-hover:scale-110 group-hover:shadow-accent/50 sm:flex">
               <ArrowRight
                 aria-hidden
                 className="h-[clamp(18px,2vw,20px)] w-[clamp(18px,2vw,20px)]"
