@@ -62,7 +62,7 @@ export default function Hero() {
 
         <div className="relative mx-auto w-full min-w-0 max-w-md md:max-w-none">
           <Image
-            src="/images/hero1.png"
+            src="/images/heroimange.png"
             alt="RosceaProne Redness-Calming Serum bottle against a soft pink background"
             width={2000}
             height={2000}
